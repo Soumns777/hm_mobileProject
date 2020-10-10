@@ -1,19 +1,5 @@
 <template>
   <div id="app">
-    黑马头条
-
-    <!-- 字体图标 -->
-    <i class="toutiao toutiaoliumangxing"></i>
-
-    <!-- vant -->
-
-    <van-button type="default">默认按钮</van-button>
-
-    <!-- 查看rem -->
-    <div class="box">
-      勇士总冠军
-    </div>
-
     <!-- 路由入口 -->
     <router-view></router-view>
   </div>

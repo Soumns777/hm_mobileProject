@@ -1,8 +1,14 @@
-// .TODO: 封装axios请求模块
+// .FIXME: 请求模块
 
 import axios from 'axios'
 
-export const request = axios.create({
-  // 基地址
+const request = axios.create({
+  // * baseURL 请求的基准路径
   baseURL: 'http://ttapi.research.itcast.cn/'
 })
+
+// * 请求拦截器
+
+// * 响应拦截器
+
+export default request
